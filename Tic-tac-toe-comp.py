@@ -17,6 +17,8 @@ def DrawBoard():
   print(" %c | %c |%c " % (board[6],board[7],board[8]))
   print("   |   |   ")
 
+  # hello
+
 def CheckPosition(x):
   if(board[x] == ' '):
     return True
